@@ -29,6 +29,9 @@ class Board extends React.Component {
                     {this.renderSquare(7)}
                     {this.renderSquare(8)}
                 </div>
+                <div className="board-row">
+                    <div>Next row?</div>                                
+                </div>
             </div>
         );
     }
